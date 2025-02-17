@@ -51,6 +51,9 @@ body {
     padding: 20px;
     border-radius: 8px;
 }
+.container .left .name1 {
+    display: none;
+}
 .container .left .avatar img {
     width: 70%;
     border-radius: 20px;
@@ -127,6 +130,14 @@ body {
     }
 
     .container .mid {
-        display: none; /* Hide the divider on smaller screens */
+        display: none;
+    }
+    .container .left .name1 {
+        display: block;
+        margin: 20px 0;
+    }
+    .container .right .name,
+    .container .right .name .contact {
+        display: none;
     }
 }
