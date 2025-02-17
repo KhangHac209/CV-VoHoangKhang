@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul {
+    list-style: none;
+}
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 16px;
+}
+body {
+    background-color: #f5e9e9b7;
+    font-family: "Roboto Mono", serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: rgba(231, 225, 225, 0.675);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container .mid {
+    width: 2px;
+    background-color: #ddd; 
+    margin: 0 20px; 
+}
+.container .left {
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.container .left .avatar img {
+    width: 70%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.container .left .information {
+    margin: 20px 0;
+}
+.container .left .information ul li {
+    margin: 10px 0;
+    color: #333;
+}
+.container .exp {
+    margin: 20px 0;
+}
+.container .exp .exp-item p {
+    margin: 10px 0;
+}
+.container .exp .exp-item ul li {
+    margin: 10px 0;
+    color: #333;
+}
+.container .left .skill ul li {
+    color: #333;
+    margin: 10px 0;
+}
+.container .right {
+    width: 65%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.container .right .name {
+    margin: 20px 0;
+}
+.container .right .name h1 {
+    margin-bottom: 10px;
+}
+.container .right .name .contact li {
+    margin: 10px 0;
+    color: #333;
+}
+.container .right .name .contact li a {
+    color: rgb(69, 69, 248);
+}
+.container .right .introduce {
+    margin: 20px 0;
+}
+.container .right .introduce p {
+    line-height: 1.8;
+    color: #333;
+}
+.container .right .project h3 {
+    margin: 10px 0;
+}
+.container .right .project h4 {
+    margin: 10px 0;
+}
+.container .right .project a {
+    color: rgb(69, 69, 248);
+    font-weight: normal;
+}
+.container .right .project ul li {
+    margin: 10px 0;
+}
