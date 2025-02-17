@@ -43,8 +43,8 @@ body {
 }
 .container .mid {
     width: 2px;
-    background-color: #ddd; 
-    margin: 0 20px; 
+    background-color: #ddd;
+    margin: 0 20px;
 }
 .container .left {
     width: 30%;
@@ -114,4 +114,19 @@ body {
 }
 .container .right .project ul li {
     margin: 10px 0;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .left,
+    .container .right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container .mid {
+        display: none; /* Hide the divider on smaller screens */
+    }
 }
